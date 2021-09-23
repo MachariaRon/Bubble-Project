@@ -1,0 +1,245 @@
+*{
+    margin: 20px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+body  {
+font-family: 'Varela Round', sans-serif;
+}
+
+header {
+    display: flex;
+    margin: auto;
+}
+
+.logo-container {
+    text-decoration-color:#63EEFF;
+    flex: 1;
+    font-size: 250%;
+    align-items:center;
+
+  
+}
+
+/* ------feedback css ----------- */
+form{
+    left: 100px;
+}
+.boxcontainer{
+  display: flex;
+  background-color:thistle;
+}
+
+.box1{
+background-color: wheat;
+left: 90px;
+}
+
+.box2 {
+ width: 900px;
+ left: 100px;
+}
+.containerformfeedback {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+   
+}
+.feedbackform{
+    text-align: center;
+    padding-top: 43px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(70, 68, 68);
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(70, 68, 68);
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: rgb(37, 116, 161);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+
+.col-25 {
+    float: left;
+    margin-top: 16px;
+    padding: 20px;
+}
+
+.col-75 {
+    float: left;
+    width: 65%;
+    margin-top: 6px;
+    left: 30px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.sumitbutton:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.sumitbutton {
+  padding-right: 400px;
+}
+
+
+/* team members  */
+
+.teamcontainer {
+    background: #000000;
+   
+}
+.aboutourteam{
+    font-size: 16px;
+}
+.teamtitle{
+    color: blue;
+}
+.closeall{
+   text-align: center;
+   background-color: silver ; 
+    height: auto;
+    width: auto;
+    border: 40px solid darkslategray;
+    padding-bottom: 30px;
+}
+
+.our-team {
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 15px 30px;
+    background: #fff;
+
+
+}
+ .teammemberimages{
+ text-align: center;
+ padding-left: 300px;
+}
+
+.our-team .pic {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .pic {
+    background: #17bebb;
+    border-radius: 50%;
+}
+#imagesizebox{
+    height: 140px;
+    width: 140px;
+    text-align: center;
+}
+
+.pic img {
+   text-align: center;
+    border-radius: 50%;
+}
+
+.our-team .title {
+    font-weight: 600;
+    color: #2e282a;
+    text-transform: uppercase;
+    display: block;
+    font-size: 20px;
+    margin: 0 0 7px 0;
+}
+
+.our-team .post {
+    color: #17bebb;
+    text-transform: capitalize;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+.our-team:hover .pic {
+    background: #17bebb;
+    border-radius: 50%;
+}
+
+.our-team:hover .social li a {
+    background: #17bebb;
+    color: #fff;
+}
+
+
+
+.our-team .social {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.our-team .social li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.our-team .social li a {
+    border-radius: 50%;
+    font-size: 15px;
+    color: #17bebb;
+    border: 1px solid #17bebb;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .social li a {
+    background: #17bebb;
+    color: #fff;
+}
+
+
+
+
