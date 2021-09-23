@@ -44,6 +44,7 @@ header{
   background-size: cover;
   position: relative;
   padding: 20px;
+  margin-top: 20px;
 }
 .img-fluid{
   padding: 20px;
