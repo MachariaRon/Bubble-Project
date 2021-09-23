@@ -16,6 +16,18 @@ body{
   padding: 2rem 9%;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
+.navbar a {
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: #666;
+}
+
+ .navbar a:hover {
+  color: var(--red);
+}
+
+
+
 #location{
     float: right;
 }

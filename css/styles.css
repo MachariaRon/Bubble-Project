@@ -3,6 +3,31 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.headerhome {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.navbar a {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: #666;
+}
+
+.navbar a:hover {
+    color: var(--red);
+}
+
+
 
 body  {
 font-family: 'Varela Round', sans-serif;
