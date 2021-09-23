@@ -12,6 +12,30 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: tan;
+    padding: 2rem 9%;
+
+}
+
+.navbar a {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: #666;
+}
+
+.navbar a:hover {
+    color: var(--red);
+}
+
+.headerhome {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: #fff;
     padding: 2rem 9%;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
@@ -36,6 +60,7 @@ font-family: 'Varela Round', sans-serif;
 header {
     display: flex;
     margin: auto;
+     margin-top: 20px;
 }
 
 .logo-container {
@@ -54,6 +79,7 @@ form{
 .boxcontainer{
   display: flex;
   background-color:thistle;
+  margin-top: 29px;
 }
 
 .box1{
@@ -154,6 +180,7 @@ input[type=submit]:hover {
 
 .teamcontainer {
     background: #000000;
+    margin-top: 29px;
    
 }
 .aboutourteam{
