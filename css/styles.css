@@ -1,9 +1,39 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 20px;
+    padding: 16px;
     box-sizing: border-box;
 }
 
+/*index.html styling*/
+
+#location{
+    float: right;
+}
+#b-logo{
+    height: 165px;
+}
+
+header{
+    background-image: url("../img/bg2.jpg");
+    background-color: #cccccc;
+    height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-text{
+    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+/* index.html styling*/
 body  {
 font-family: 'Varela Round', sans-serif;
 }
