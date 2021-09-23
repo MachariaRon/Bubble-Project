@@ -122,7 +122,10 @@ input[type=submit]:hover {
 }
 
 
-/* team members  */
+
+
+
+/* css team members  */
 
 .teamcontainer {
     background: #000000;
@@ -130,7 +133,7 @@ input[type=submit]:hover {
 }
 .aboutourteam{
     font-size: 16px;
-    
+
 }
 .teamtitle{
     color: blue;
